@@ -1,0 +1,60 @@
+
+
+$text-color: #333;
+$Header-bg: rgb(182, 83, 83);
+$body-bg: Beige;
+
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: $text-color;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $Header-bg;
+  
+
+}
+
+.contact-p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+  
+}
+
+
+.contact-container {
+  background-color: $body-bg;
+  padding: 20px;
+  min-height: 100vh;
+  min-width: 100vw;
+  
+}
+
+.success-container {
+  background-color: $body-bg;
+  padding: 20px;
+  min-height: 100vh;
+  min-width: 100vw;
+
+}
+
+.concern {
+  border: 1px solid black;
+  text-align: center;
+  max-width: 650px; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 15px;
+  background-color:wheat;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
